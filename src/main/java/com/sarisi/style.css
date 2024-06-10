@@ -1,0 +1,48 @@
+/* style.css */
+
+/* Style for TableView */
+.table-view {
+    -fx-background-color: #f5f5f5;
+    -fx-border-color: #d3d3d3;
+    -fx-border-radius: 5px;
+    -fx-padding: 5;
+}
+
+.table-view .column-header {
+    -fx-background-color: linear-gradient(to bottom, #a1a1a1, #717171);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-color: #d3d3d3;
+    -fx-border-width: 0 0 1 0;
+}
+
+.table-view .cell {
+    -fx-border-color: #d3d3d3;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: #ffffff;
+}
+
+/* Hover effect for TableView rows */
+.table-view .cell:hover {
+    -fx-background-color: #494949;
+}
+
+/* Selected row */
+.table-view .row-cell:selected {
+    -fx-background-color: #c8e6c9;
+}
+
+/* Style for TextField */
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #d3d3d3;
+    -fx-border-radius: 5px;
+    -fx-padding: 10;
+    -fx-font-size: 14px;
+}
+
+/* Focused TextField */
+.text-field:focused {
+    -fx-border-color: #8bc34a;
+    -fx-background-color: #f1f8e9;
+}
